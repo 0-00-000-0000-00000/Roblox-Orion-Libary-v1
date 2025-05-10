@@ -1,3 +1,4 @@
+--Open source so yeah
 local ServerScriptService = game:GetService("ServerScriptService")
 local PathfindingModule = require(ServerScriptService.PathfindingModule)
 
