@@ -1,17 +1,1 @@
---Open source so yep
-local ServerScriptService = game:GetService("ServerScriptService")
-local PathfindingModule = require(ServerScriptService.PathfindingModule)
-
--- Create an NPC with Hostile mode
-local npc = -- Your NPC model
-local pathModule = PathfindingModule.new(npc, "Hostile")
-
--- Create an NPC with Friendly mode (zone-based wandering)
-local friendlyNPC = -- Your NPC model
-local wanderZoneCenter = Vector3.new(0, 0, 0)
-local friendlyPathModule = PathfindingModule.new(friendlyNPC, "Friendly", nil, wanderZoneCenter)
-
--- Create an NPC with MoveToPoints mode
-local targetPoints = {workspace.Point1, workspace.Point2, workspace.Point3}
-local patrollingNPC = -- Your NPC model
-local patrolPathModule = PathfindingModule.new(patrollingNPC, "MoveToPoints", targetPoints)
+ä
